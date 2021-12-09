@@ -1,0 +1,57 @@
+.apresentation-title h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+input {
+  display: block;
+  outline: none;
+  border: none;
+}
+
+input.insertable {
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(90deg, #f6f7fb 0%, #e6e7ec 103.28%);
+  box-shadow: inset -2px 0px 4px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+input.clickable {
+  width: 170px;
+  height: 50px;
+  background: linear-gradient(90deg, #f6f7fb 0%, #e6e7ec 103.28%);
+  box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.25), 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: 35px auto 0 auto;
+}
+
+.form-text {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.box-container{
+  width: 14px;
+  height: 14px;
+  border: 2px solid #AEAEAE;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #AEAEAE;
+}
+
+.section-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 80vh;
+}

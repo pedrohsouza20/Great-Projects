@@ -1,0 +1,38 @@
+.nav-menu {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
+  height: 70px;
+  background: #e6e6e6;
+  border-bottom: 3px solid #fff;
+}
+
+.theme-change-icon {
+  grid-column: 2 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme-change-icon .icon {
+  font-size: 50px;
+  align-self: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.nav-ul{
+  grid-column: 3 / 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.nav-ul li{
+  margin-left: 40px;
+}
+
+.nav-ul li a{
+  color: #1a1a1a;
+  font-size: 30px;
+}
